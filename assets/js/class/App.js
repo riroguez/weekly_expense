@@ -1,0 +1,1 @@
+import{validateForm as t,showExpenses as e,emptyModal as i,validateFormModal as s}from"../funtions.js";import{btnSubmit as n,btnPlus as r,btnClose as p,formModal as d}from"../selectors.js";class App{constructor(){this.initApp()}initApp(){n.addEventListener("submit",t),r.addEventListener("click",e),p.addEventListener("click",i),d.addEventListener("submit",s)}}export default App;
